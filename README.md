@@ -12,7 +12,7 @@ A Jupyter lab on Python GIS techniques (rioxarray, GDAL, geopandas, pyproj). Stu
 | `images/` | Figures shown in the notebook |
 | `jezero_data/` | All input data (below) |
 
-**Data files (`jezero_data/`)**
+**Data files (`jezero_data/`) need to be installed (here)[https://www.dropbox.com/scl/fo/upf0ypxnlht3icppzsai8/ABpcrHPsnDZchqHTrF55Evw?rlkey=u43bk6ga1qzpepwkuekc498do&st=cdbnfmx9&dl=0]**
 
 | File | What it is |
 |---|---|
@@ -23,6 +23,7 @@ A Jupyter lab on Python GIS techniques (rioxarray, GDAL, geopandas, pyproj). Stu
 | `perseverance_traverse_jezero.gpkg` | Perseverance drive paths in the CTX DEM's CRS, Part 5 (converted from `perseverance_traverse.json`, NASA's original file in lon/lat) |
 | `supercam_libs_moc.csv` | SuperCam rock compositions (PDS Geosciences Node), Part 5 |
 | `supercam_mingsbight_spectrum.fits` | One SuperCam LIBS spectrum of the rock *Mings Bight*, sol 1494 (PDS Geosciences Node), Part 5 |
+
 
 ## Python Setup and Environments
 
@@ -110,6 +111,7 @@ You probably forgot to activate the environment before launching Jupyter. Close 
 **Kernel errors inside Jupyter**
 In the top-right corner of JupyterLab, check that the selected kernel is **Python 3 (ipykernel)**, running from the `mars-gis-lab` environment you activated before starting Jupyter.
 
+
 ## Running the Lab
 
 1. Open **Anaconda Prompt** (Windows) or **Terminal** (Mac).
@@ -129,3 +131,8 @@ In the top-right corner of JupyterLab, check that the selected kernel is **Pytho
 Run the notebook from the repository folder: it reads its inputs from `jezero_data/` and `images/`, and writes the files it creates to `outputs/`.
 
 **Interactive figures are required.** Drawing profiles and polygons needs `ipympl`, which is included in `environment.yml`, and works in JupyterLab 4 / Notebook 7. Students draw their own lines and polygons (there are no defaults); the first code cell prints `interactive figures: ON` when it is working. If you install `ipympl` into an existing environment, restart Jupyter afterwards.
+
+
+## Final Submission
+
+When you are done with the lab, you only need to submit the `Remote_Sensing_Lab_4.docx` file with your answers and plots from the Jupyter Notebook filled in.

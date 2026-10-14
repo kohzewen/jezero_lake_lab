@@ -13,7 +13,8 @@ A Jupyter lab on Python GIS techniques (rioxarray, GDAL, geopandas, pyproj). Stu
 | `jezero_data/` | All input data (below) |
 
 **Data files (`jezero_data/`)**
-This directory needs to be installed need to be installed [here](https://www.dropbox.com/scl/fo/upf0ypxnlht3icppzsai8/ABpcrHPsnDZchqHTrF55Evw?rlkey=u43bk6ga1qzpepwkuekc498do&st=cdbnfmx9&dl=0).
+
+This directory needs to be installed [here](https://www.dropbox.com/scl/fo/upf0ypxnlht3icppzsai8/ABpcrHPsnDZchqHTrF55Evw?rlkey=u43bk6ga1qzpepwkuekc498do&st=cdbnfmx9&dl=0).
 
 | File | What it is |
 |---|---|

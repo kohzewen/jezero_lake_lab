@@ -130,6 +130,7 @@ In the top-right corner of JupyterLab, check that the selected kernel is **Pytho
    jupyter lab
    ```
 
+
 Run the notebook from the repository folder: it reads its inputs from `jezero_data/` and `images/`, and writes the files it creates to `outputs/`.
 
 **Interactive figures are required.** Drawing profiles and polygons needs `ipympl`, which is included in `environment.yml`, and works in JupyterLab 4 / Notebook 7. Students draw their own lines and polygons (there are no defaults); the first code cell prints `interactive figures: ON` when it is working. If you install `ipympl` into an existing environment, restart Jupyter afterwards.
